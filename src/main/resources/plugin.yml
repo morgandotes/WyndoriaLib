@@ -1,0 +1,6 @@
+name: WyndoriaLib
+main: com.insurgent.lib.WyndoriaLib
+description:
+version: "1.0.0"
+api: ["2.0.0"]
+author: Untrickary
