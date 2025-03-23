@@ -26,8 +26,8 @@ public class SQLDataSource {
         final HikariConfig hikari = new HikariConfig();
         hikari.setPoolName("MMO-hikari");
         hikari.setJdbcUrl("jdbc:mysql://" + config.getString("host", "localhost") + ":" + config.getString("port", "3306") + "/" + config.getString("database", "minecraft"));
-        hikari.setUsername(config.getString("user", "mmolover"));
-        hikari.setPassword(config.getString("pass", "ILoveAria"));
+        hikari.setUsername(config.getString("user", "root"));
+        hikari.setPassword(config.getString("pass", ""));
         hikari.setMaximumPoolSize(config.getInt("maxPoolSize", 10));
         hikari.setMaxLifetime(config.getLong("maxLifeTime", 300000));
         hikari.setConnectionTimeout(config.getLong("connectionTimeOut", 10000));
