@@ -3,7 +3,6 @@
 # when toggled on.
 debug: false
 
-# This option is used by MMOInventory and MMOCore to synchronize
 # player data between proxy-connected servers. When a player changes
 # server, the plugin tries to fetch new data X times every 1s, up
 # to a maximum of 5 times by default.
